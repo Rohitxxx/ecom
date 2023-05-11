@@ -6,31 +6,13 @@ import FilterBox from '../../components/FilterBox'
 const ProductList = () => {
     const products = [
         {
+            id: 1,
             title: 'product 1',
             mrp: '23,999',
             selling_price: '21,999',
             description: 'lorem gdfhfdhfhf ddfsdf'
         }, {
-            title: 'product 1',
-            mrp: '23,999',
-            selling_price: '21,999',
-            description: 'lorem gdfhfdhfhf ddfsdf'
-        }, {
-            title: 'product 1',
-            mrp: '23,999',
-            selling_price: '21,999',
-            description: 'lorem gdfhfdhfhf ddfsdf'
-        }, {
-            title: 'product 1',
-            mrp: '23,999',
-            selling_price: '21,999',
-            description: 'lorem gdfhfdhfhf ddfsdf'
-        }, {
-            title: 'product 1',
-            mrp: '23,999',
-            selling_price: '21,999',
-            description: 'lorem gdfhfdhfhf ddfsdf'
-        }, {
+            id: 2,
             title: 'product 1',
             mrp: '23,999',
             selling_price: '21,999',
@@ -44,7 +26,7 @@ const ProductList = () => {
                     <FilterBox />
                 </Grid>
                 <Grid item sm={9} lg={9}>
-                    {products.map((item, index) => <><Product2 /><Divider /></>)}
+                    {products.map((item, index) => <><Product2 item={item} /><Divider /></>)}
                 </Grid>
             </Grid>
         </Container>

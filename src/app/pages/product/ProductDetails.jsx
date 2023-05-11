@@ -1,7 +1,7 @@
 import { Badge, Box, Button, Container, Grid, Stack, Typography } from '@mui/material'
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import PopularProduct from '../../components/PopularProduct'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
@@ -20,7 +20,7 @@ const ProductDetails = () => {
                             <Button variant='contained' startIcon={<ShoppingCartIcon />} >Add to Cart</Button>
                         </Grid>
                         <Grid item sm={6} lg={6}>
-                            <Button variant='contained' startIcon={<FlashOnIcon />} >Buy Now</Button>
+                            <Button component={Link} to={'/cart/'} variant='contained' startIcon={<FlashOnIcon />} >Buy Now</Button>
                         </Grid>
                     </Grid>
                 </Grid>

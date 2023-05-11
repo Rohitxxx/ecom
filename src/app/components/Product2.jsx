@@ -1,10 +1,11 @@
 import { Badge, Card, Grid, Stack, Typography } from '@mui/material'
 import React from 'react'
 import { Image } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
-const Product2 = () => {
+const Product2 = ({ item }) => {
     return (
-        <Card>
+        <Card component={Link} to={'/product-details/' + item.id}>
             <Grid container alignItems={'center'} p={2} justifyContent={'center'}>
                 <Grid item sm={12} lg={4} >
                     <Image src={require('../assets/img/products/p1.webp')} width={'100px'} />

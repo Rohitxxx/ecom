@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom'
 
 const Category = ({ title, img, id }) => {
     return (
-        <Stack alignItems={'center'} p={1}>
-            <Image src={img} width={'70px'} />
-            <Link to={'/product-items/' + id}>{title}</Link>
+
+        <Stack p={1}>
+            <Link to={'/product-list/' + id} style={{ textAlign: 'center' }}>
+                <Image src={img} width={'70px'} />
+                <Typography >{title}</Typography>
+            </Link>
         </Stack>
     )
 }
