@@ -2,3 +2,33 @@ a{
     text-decoration: none;
     color: rgb(48, 47, 47);
 }
+
+.btn_images{
+    text-align: center;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    padding: 28px 10px 124px;
+}
+.contact{
+    font-size: 27px !important;
+    padding: 5px;
+}
+.btn-btn{
+    margin: 10px !important;
+}
+.images_p{
+    margin-top: 49px;
+}
+.shodow{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    border-top: 1px solid #eaeaea;
+    height: 100% !important;
+    margin-top: 10px;
+}
+.css-go2vvz-MuiGrid-root {
+    height: 329px;
+}
+/* new lilne */
