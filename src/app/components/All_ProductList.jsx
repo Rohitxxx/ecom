@@ -1,7 +1,7 @@
 import { Divider, Typography } from '@mui/material'
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import { Badge, Card, Grid,Button, Box } from '@mui/material'
+import {  Card, Grid,Button, Box } from '@mui/material'
 export default function All_ProductList() {
   return (
     <div>
