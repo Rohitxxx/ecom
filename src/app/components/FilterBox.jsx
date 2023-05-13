@@ -12,7 +12,7 @@ const FilterBox = () => {
             <h5>FilterBox</h5>
             <Divider/>
 
-            <h6>पहले फ़िल्टर तो करो</h6>
+            <h6>पहले फ़िल्टर तो करो </h6>
 </Box>
      <Box className="mt-3 p-2">
      <p>CATEGORIES</p>
@@ -38,7 +38,7 @@ const FilterBox = () => {
                 <option value="1000" className="_3AsjWR">350</option>
                 <option value="2000" className="_3AsjWR">450</option>
                 <option value="5000" className="_3AsjWR">550</option>
-                <option value="10000" className="_3AsjWR">650</option>
+                <option value="10000" className="_3AsjWR">6500</option>
                 <option value="Max" className="_3AsjWR">100+</option></select>
         </div>
         </div>
