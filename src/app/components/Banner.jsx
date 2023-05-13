@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Banner = () => {
     return (
         <div>
-            <Carousel showStatus={false} showThumbs={false} centerMode={false}>
+            <Carousel showStatus={false} showThumbs={false} centerMode={false}> 
                 <div>
                 <img src= '	https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/7ebae6ab4be6cda7.jpg?q=50'/>
                     {/* <p className="legend">Legend 1</p> */}
@@ -20,7 +20,7 @@ const Banner = () => {
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
-
+         {/* <p></p> */}
         </div>
     )
 }
