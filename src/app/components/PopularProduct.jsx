@@ -6,10 +6,10 @@ export default function PopularProduct({item}) {
   return (
     <div>
          <Card>
-            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'>
-                <Grid item sm={12} lg={2} className='btn_images' >
+            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'value="tab1">
+                <Grid item sm={12} lg={2} className='btn_images'component={Link} to={'/All_ProductList/'}value="tab1" >
                     <Typography className='contact'>Best of Electronics</Typography>
-                    <Button variant='contained'className='btn-btn'>VIEW ALL</Button>
+                    <Button variant='contained'className='btn-btn' >VIEW ALL</Button>
                     <Image src={require('../assets/img/btn_images/AA1.webp')} width={'200'}  className='images_p'/>
                 </Grid>                                                                                                                                                                                                                     
                 <Grid item sm={12} lg={2} className='btn_images'>
@@ -56,8 +56,8 @@ export default function PopularProduct({item}) {
         </Card>
 
         <Card>
-            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'>
-                <Grid item sm={12} lg={2} className='btn_images' >
+            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'value="tab2">
+                <Grid item sm={12} lg={2} className='btn_images' value="tab2">
                     <Typography className='contact'>Beauty, Food, Toys & more</Typography>
                     <Button variant='contained'className='btn-btn' >VIEW ALL</Button>
                     <Image src={require('../assets/img/btn_images/A1.webp')} width={'200'}  className='images_p'/>
@@ -106,8 +106,8 @@ export default function PopularProduct({item}) {
         </Card>
 
         <Card>
-            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'>
-                <Grid item sm={12} lg={2} className='btn_images' >
+            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'value="tab3">
+                <Grid item sm={12} lg={2} className='btn_images' value="tab3">
                     <Typography className='contact'>Vacay Travel Essentials</Typography>
                     <Button variant='contained'className='btn-btn' >VIEW ALL</Button>
                     <Image src={require('../assets/img/btn_images/AA3.webp')} width={'200'}  className='images_p'/>
@@ -156,8 +156,8 @@ export default function PopularProduct({item}) {
         </Card>
 
         <Card>
-            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'>
-                <Grid item sm={12} lg={2} className='btn_images' >
+            <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'value="tab4">
+                <Grid item sm={12} lg={2} className='btn_images'value="tab4" >
                     <Typography className='contact'>Home Specials</Typography>
                     <Button variant='contained'className='btn-btn' >VIEW ALL</Button>
                     <Image src={require('../assets/img/btn_images/AA1.webp')} width={'200'}  className='images_p'/>
