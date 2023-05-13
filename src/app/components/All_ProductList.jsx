@@ -5,8 +5,8 @@ import {  Card, Grid,Button, Box } from '@mui/material'
 export default function All_ProductList() {
   return (
     <div>
-      <Typography> Best of Electronics</Typography>
-      <Typography>19 Items</Typography>
+      <Typography className='Best1'> Best of Electronics</Typography>
+      <Typography className='item1'>19 Items</Typography>
        <Divider/>
       <Card>
             <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'>
@@ -19,7 +19,7 @@ export default function All_ProductList() {
                     </Box>
                 </Grid>                                                                                                                                                                                                                  
                 <Grid item sm={12} lg={3} className='btn_images'>
-                    <Image src={require('../assets/img/btn_images/P1.webp')} width={'200'} />
+                    <Image src={require('../assets/img/btn_images/p2.webp')} width={'200'} />
                     <Box>
                     <Typography pt={3}>Top Mirrorless cameras</Typography>
                     <Button>Form ₹8765</Button>
@@ -27,7 +27,7 @@ export default function All_ProductList() {
                     </Box>
                 </Grid>
                 <Grid item sm={12} lg={3} className='btn_images'>
-                    <Image src={require('../assets/img/btn_images/p2.webp')} width={'200'} />
+                    <Image src={require('../assets/img/btn_images/p3.webp')} width={'200'} />
                     <Box>
                     <Typography pt={2}>Projectors</Typography>
                     <Button>Form ₹8765</Button>
@@ -36,7 +36,7 @@ export default function All_ProductList() {
                 </Grid>
                 
                 <Grid item sm={12} lg={3} className='btn_images'>
-                    <Image src={require('../assets/img/btn_images/p2.webp')} width={'200'} />
+                    <Image src={require('../assets/img/btn_images/p5.webp')} width={'200'} />
                     <Box>
                     <Typography pt={2}>Monitor</Typography>
                     <Button>Form ₹8765</Button>
@@ -101,7 +101,6 @@ export default function All_ProductList() {
                     <Box>
                     <Typography pt={2}>Slippers & Flip Flops</Typography>
                     <Button>Min. 70% Off</Button>
-                   
                     </Box>
                 </Grid>
                 <Grid item sm={12} lg={3} className='btn_images'>

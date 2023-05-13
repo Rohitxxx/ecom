@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Banner = () => {
     return (
         <div>
-            <Carousel showStatus={false} showThumbs={false} centerMode={false} >
+            <Carousel showStatus={false} showThumbs={false} centerMode={false}>
                 <div>
                     <img src={require('../assets/img/banner/b1.webp')} />
                     {/* <p className="legend">Legend 1</p> */}

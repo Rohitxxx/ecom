@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import ProductList from '../pages/navpages/ProductList';
 import ProductDetails from '../pages/product/ProductDetails';
 import Cart from '../pages/cart';
+import All_ProductList from '../components/All_ProductList';
 
 const MainRoute = () => {
     const isLoggedIn = true;
@@ -20,7 +21,7 @@ const MainRoute = () => {
                 <Route element={<ProductList />} path='/product-list/:search' />
                 <Route element={<ProductDetails />} path='/product-details/:id' />
                 <Route element={<Cart />} path='/cart' />
-
+                <Route element={<All_ProductList />} path='/All_ProductList' />
                 <Route element={<Login />} path='/login' />
                 <Route element={<Contact />} path='/contact' />
                 <Route element={<Home />} path='*' />
