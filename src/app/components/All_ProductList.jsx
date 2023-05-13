@@ -11,7 +11,7 @@ export default function All_ProductList() {
       <Card>
             <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'>
             <Grid item sm={12} lg={3} className='btn_images'>
-                    <Image src={require('../assets/img/btn_images/P1.webp')} width={'200'} />
+                    <Image src={require('../assets/img/btn_images/P1.webp')} width={'200'}/>
                     <Box>
                     <Typography pt={2}>Top Mirrorless cameras</Typography>
                     <Button>Form ₹8765</Button>
