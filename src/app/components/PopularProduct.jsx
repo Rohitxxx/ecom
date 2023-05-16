@@ -57,7 +57,7 @@ export default function PopularProduct({item}) {
 
         <Card>
             <Grid container alignItems={'center'} justifyContent={'center'} className='shadow'value="tab2">
-                <Grid item sm={12} lg={2} className='btn_images' value="tab2">
+                <Grid item sm={12} lg={2} className='btn_images' value="tab2" component={Link} to={'/Toys/'}>
                     <Typography className='contact'>Beauty, Food, Toys & more</Typography>
                     <Button variant='contained'className='btn-btn' >VIEW ALL</Button>
                     <Image src={require('../assets/img/btn_images/A1.webp')} width={'200'}  className='images_p'/>
