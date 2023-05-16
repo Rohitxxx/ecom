@@ -62,7 +62,7 @@ const Login = () => {
               </Link>
             </Grid>
             <Grid item>
-              <Link to="./SignUp">
+              <Link to="./Signup">
               {"Don't have an account?"}SignUp
               </Link>               
               {/* fghjk */}
