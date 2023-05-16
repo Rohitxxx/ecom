@@ -153,7 +153,7 @@ function Navbar() {
                         >
                             {settings.map((setting) => (
                                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
+                                    <Typography textAlign="center" component={Link} to={'/login/'}>{setting}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>
