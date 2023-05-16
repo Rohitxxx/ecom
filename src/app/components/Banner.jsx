@@ -20,7 +20,7 @@ const Banner = () => {
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
-         {/* <p></p> */}
+        
         </div>
     )
 }
